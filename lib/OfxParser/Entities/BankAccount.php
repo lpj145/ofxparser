@@ -25,6 +25,7 @@ class BankAccount extends AbstractEntity
     public $balanceDate;
     
     /**
+    * BankId esta no schema internacional.
     * @var string
     */
     public $bankId;
