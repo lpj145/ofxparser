@@ -3,7 +3,7 @@
 namespace OfxParser\Entities;
 
 class BankAccount extends AbstractEntity
-{
+{    
     /**
      * @var string
      */
@@ -23,6 +23,11 @@ class BankAccount extends AbstractEntity
      * @var \DateTimeInterface
      */
     public $balanceDate;
+    
+    /**
+    * @var string
+    */
+    public $bankId;
 
     /**
      * @var string
